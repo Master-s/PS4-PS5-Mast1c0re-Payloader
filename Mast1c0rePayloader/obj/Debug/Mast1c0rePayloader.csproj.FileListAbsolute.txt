@@ -1,0 +1,13 @@
+C:\Users\Master\source\repos\Mast1c0rePayloader\Mast1c0rePayloader\bin\Debug\Mast1c0rePayloader.exe.config
+C:\Users\Master\source\repos\Mast1c0rePayloader\Mast1c0rePayloader\bin\Debug\Mast1c0rePayloader.exe
+C:\Users\Master\source\repos\Mast1c0rePayloader\Mast1c0rePayloader\bin\Debug\Mast1c0rePayloader.pdb
+C:\Users\Master\source\repos\Mast1c0rePayloader\Mast1c0rePayloader\obj\Debug\Mast1c0rePayloader.csproj.AssemblyReference.cache
+C:\Users\Master\source\repos\Mast1c0rePayloader\Mast1c0rePayloader\obj\Debug\Mast1c0rePayloader.Form1.resources
+C:\Users\Master\source\repos\Mast1c0rePayloader\Mast1c0rePayloader\obj\Debug\Mast1c0rePayloader.Properties.Resources.resources
+C:\Users\Master\source\repos\Mast1c0rePayloader\Mast1c0rePayloader\obj\Debug\Mast1c0rePayloader.csproj.GenerateResource.cache
+C:\Users\Master\source\repos\Mast1c0rePayloader\Mast1c0rePayloader\obj\Debug\Mast1c0rePayloader.csproj.CoreCompileInputs.cache
+C:\Users\Master\source\repos\Mast1c0rePayloader\Mast1c0rePayloader\obj\Debug\Mast1c0rePayloader.exe
+C:\Users\Master\source\repos\Mast1c0rePayloader\Mast1c0rePayloader\obj\Debug\Mast1c0rePayloader.pdb
+C:\Users\Master\source\repos\Mast1c0rePayloader\Mast1c0rePayloader\bin\Debug\librpc.dll
+C:\Users\Master\source\repos\Mast1c0rePayloader\Mast1c0rePayloader\obj\Debug\Mast1c0rePayloader.csproj.CopyComplete
+C:\Users\Master\source\repos\Mast1c0rePayloader\Mast1c0rePayloader\obj\Debug\Mast1c0rePayloader.About.resources
