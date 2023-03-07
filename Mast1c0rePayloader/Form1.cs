@@ -510,5 +510,126 @@ namespace Mast1c0rePayloader
             About f2 = new About();
             f2.ShowDialog();
         }
+
+        //gameloader505
+        private void butgameloader_Click(object sender, EventArgs e)
+        {
+            this.Injector_gameloader(this.ipbox.Text);
+        }
+        private void Injector_gameloader(string IP)
+        {
+            string str = Application.StartupPath + "\\files\\GameLoader";
+            try
+            {
+
+                SendPayload(IP, str + "\\mast1c0re-ps2-network-game-loader-PS4-5-05.elf", Convert.ToInt32(this.portbox.Text));
+                payloadStatus.ForeColor = Color.FromArgb(20, 163, 4);
+                payloadStatus.Text = "Successful. PS4 5.05 GameLoader ";
+
+
+            }
+            catch
+            {
+                int num = (int)MessageBox.Show("Payload injection failed.\n", "Error", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                this.payloadStatus.ForeColor = Color.Red;
+                this.payloadStatus.Text = "Payload failed";
+            }
+        }
+        //gameloader672
+        private void butgameloader672_Click(object sender, EventArgs e)
+        {
+            this.Injector_gameloader672(this.ipbox.Text);
+        }
+        private void Injector_gameloader672(string IP)
+        {
+            string str = Application.StartupPath + "\\files\\GameLoader";
+            try
+            {
+
+                SendPayload(IP, str + "\\mast1c0re-ps2-network-game-loader-PS4-6-72.elf", Convert.ToInt32(this.portbox.Text));
+                payloadStatus.ForeColor = Color.FromArgb(20, 163, 4);
+                payloadStatus.Text = "Successful. PS4 6.72 GameLoader ";
+
+
+            }
+            catch
+            {
+                int num = (int)MessageBox.Show("Payload injection failed.\n", "Error", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                this.payloadStatus.ForeColor = Color.Red;
+                this.payloadStatus.Text = "Payload failed";
+            }
+        }
+        //gameloader900
+        private void gameloader900_Click(object sender, EventArgs e)
+        {
+            this.Injector_gameloader900(this.ipbox.Text);
+        }
+        private void Injector_gameloader900(string IP)
+        {
+            string str = Application.StartupPath + "\\files\\GameLoader";
+            try
+            {
+
+                SendPayload(IP, str + "\\mast1c0re-ps2-network-game-loader-PS4-9-00.elf", Convert.ToInt32(this.portbox.Text));
+                payloadStatus.ForeColor = Color.FromArgb(20, 163, 4);
+                payloadStatus.Text = "Successful. PS4 9.00 GameLoader ";
+
+
+            }
+            catch
+            {
+                int num = (int)MessageBox.Show("Payload injection failed.\n", "Error", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                this.payloadStatus.ForeColor = Color.Red;
+                this.payloadStatus.Text = "Payload failed";
+            }
+        }
+        //gameloader1001
+        private void gameloader1001_Click(object sender, EventArgs e)
+        {
+            this.Injector_gameloader1001(this.ipbox.Text);
+        }
+        private void Injector_gameloader1001(string IP)
+        {
+            string str = Application.StartupPath + "\\files\\GameLoader";
+            try
+            {
+
+                SendPayload(IP, str + "\\mast1c0re-ps2-network-game-loader-PS4-10-01.elf", Convert.ToInt32(this.portbox.Text));
+                payloadStatus.ForeColor = Color.FromArgb(20, 163, 4);
+                payloadStatus.Text = "Successful. PS4 10.01 GameLoader ";
+
+
+            }
+            catch
+            {
+                int num = (int)MessageBox.Show("Payload injection failed.\n", "Error", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                this.payloadStatus.ForeColor = Color.Red;
+                this.payloadStatus.Text = "Payload failed";
+            }
+        }
+
+        private void gameloader650_Click(object sender, EventArgs e)
+        {
+            this.Injector_gameloader650(this.ipbox.Text);
+        }
+        private void Injector_gameloader650(string IP)
+        {
+            string str = Application.StartupPath + "\\files\\GameLoader";
+            try
+            {
+
+                SendPayload(IP, str + "\\mast1c0re-ps2-network-game-loader-PS5-6-50.elf", Convert.ToInt32(this.portbox.Text));
+                payloadStatus.ForeColor = Color.FromArgb(20, 163, 4);
+                payloadStatus.Text = "Successful. PS5 6.50 GameLoader ";
+
+
+            }
+            catch
+            {
+                int num = (int)MessageBox.Show("Payload injection failed.\n", "Error", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                this.payloadStatus.ForeColor = Color.Red;
+                this.payloadStatus.Text = "Payload failed";
+            }
+        }
     }
 }
