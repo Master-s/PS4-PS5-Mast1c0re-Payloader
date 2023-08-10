@@ -8,6 +8,7 @@ namespace Mast1c0rePayloader
 
         public static string IP;
         public static string port;
+        
 
         static IniConfig()
         {

@@ -102,5 +102,6 @@
     <Content Include="iconps.ico" />
     <None Include="Resources\send-svgrepo-com.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

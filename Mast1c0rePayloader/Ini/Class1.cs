@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
 using System.Runtime.InteropServices;
 using System.Text;
 
@@ -36,5 +37,6 @@ namespace Mast1c0rePayloader.Ini
 
 
         public string Path;
+
     }
 }
